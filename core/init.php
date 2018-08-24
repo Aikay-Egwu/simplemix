@@ -4,8 +4,6 @@ require_once __DIR__  . '/../vendor/autoload.php';
 configure_settings();
 //loads database settings
 loadDatabase();
-//loads 
-loadPaths();
 //loads the twig framework
 loadTwig();
 
