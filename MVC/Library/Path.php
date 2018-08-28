@@ -9,4 +9,9 @@ class Path
     {
         //return path
     }
+
+    public static function pageNotFound()
+    {
+        return URL.'errors/error404';
+    }
 }

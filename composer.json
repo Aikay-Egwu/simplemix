@@ -1,0 +1,18 @@
+{
+    "autoload" : {
+        "files": [
+            "MVC/Config/Config.php",
+            "MVC/Config/Database.php",
+            "MVC/Config/Twigs.php"
+
+        ],
+        "psr-4" : {
+            "MVC\\" : "MVC"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.5",
+        "twig/twig": "^2.0",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

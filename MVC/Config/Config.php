@@ -3,7 +3,7 @@ use MVC\Library\Config as Config ;
 
 function configure_settings()
 {
-    Config::set('site_name', '');
+    Config::set('site_name', 'SimpleMix');
     Config::set('languages', array('en'));
     //routes.  Route name => method prefix
     Config::set(

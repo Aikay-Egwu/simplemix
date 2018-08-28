@@ -10,7 +10,6 @@ date_default_timezone_set('Europe/London');
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(dirname(__FILE__)));
 
-
 define('VIEWS_PATH', ROOT.DS.'MVC'.DS.'Views');
 define('CACHE_PATH', VIEWS_PATH.DS.'Cache');
 
@@ -47,7 +46,7 @@ rrmdir(CACHE_PATH);
 define('TRUST_PATH', DS.'assets'.DS.'trust_images'.DS);
 //Define the root folder
 //Default is an empty string if in site root
-define('ROOT_FOLDER', DS.'accounts'.DS);
+define('ROOT_FOLDER', DS.'simplemix'.DS);
 define('IMAGE', ROOT_FOLDER.'public'.DS.'assets'.DS);
 define('IMAGES', DS.'public'.DS.'assets'.DS);
 define('URL', 'http://www.misturadevelopment.org'.ROOT_FOLDER);
